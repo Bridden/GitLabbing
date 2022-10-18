@@ -1,0 +1,17 @@
+# Fill in this file with the code for Python practice with data structures
+def legalAges():
+    lifeEvent = {
+            "drivingAge": 16,
+            "votingAge": 18,
+            "drinkingAge": 21,
+            "retirementAge": 65
+            }
+    print("the legal driving age is "
+            + str(lifeEvent["drivingAge"]) + ".")
+    print("The legal voting age is "
+            + str(lifeEvent["votingAge"]) + ".")
+    print("The legal drinking age is "
+            + str(lifeEvent["drinkingAge"]) + ".")
+    print("The legal retirement age is "
+            + str(lifeEvent["retirementAge"]) + ".")
+legalAges()
